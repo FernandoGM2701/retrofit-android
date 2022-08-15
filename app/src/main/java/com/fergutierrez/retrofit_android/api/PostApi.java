@@ -12,3 +12,4 @@ public interface PostApi {
     @GET("posts")
     Call<List<Post>> getPosts();
 }
+
